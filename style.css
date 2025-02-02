@@ -65,22 +65,25 @@ font-size:17px;
 
 }
 .Nama{
-
-    display:inline;
+display: flex;
+flex-direction: column; /* Biar urut vertikal */
+    align-items: center; 
    font-family:"rubik";
    color:white;
 }
-
+.fototengah{
+    display: flex;
+    justify-content: baseline;
+    align-items:center;
+    
+}
 .foto{
     border-style:solid;
     border-color:#a476ff;
     border-width:9px;
-    margin-left:550px;
-    margin-right:auto;
-    margin-top:0px;
+    margin-top:20px;
     height: 550px;
     width:auto;
-    width:1;
     border-radius:50%;
    
 }
@@ -89,10 +92,15 @@ font-size:17px;
     padding-top:90px;
     display:flex;
     align-items:center;
-    margin-left:150px;
+    justify-content: center;
+    
     padding-bottom:220px;
 
 }
+.Scroll{
+    margin-top: 30px;
+}
+
 
 .NamaTengah{
     display:flex;
@@ -139,7 +147,7 @@ font-size:17px;
     font-size:40px;
     display:flex;
     flex-direction: column;
-    margin-left:50px;
+   
     animation: floating 2s ease-in-out infinite;
 }
 
@@ -528,6 +536,9 @@ display:flex;
     }
     .garis{
         display:none;
+    }
+    .fototengah{
+        align-items:center;
     }
     .foto{
        
