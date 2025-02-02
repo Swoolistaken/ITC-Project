@@ -155,7 +155,7 @@ flex-direction: column; /* Biar urut vertikal */
 display:flex;
  margin-top:100px;
  font-family:"rubik";
-
+ justify-content:space-evenly;
 }
 
 #abt{
@@ -241,27 +241,30 @@ display:flex;
     border:#a476ff;
     background-color:#a476ff;
 }
+.tentang{
+    
+}
 .Gambar2{
+    justify-content: center;
     border-radius:20px;
     height:500px;
-    margin-left:150px;
+   
    
 }
 .sosmed{
-    position:absolute ;
+    
     border-radius: 10px;
     border-color: white;
     background-color: white;
     width: fit-content;
-    justify-content: space-evenly;
     border-style: solid;
     font-size: 25px;
     display: flex;
     gap: 60px;
     padding: 4px 153.5px;
-    margin-top: 480px;
-    margin-left:150px;
-  
+    left: 95px;
+    
+    
 }
 .fa-instagram, .fa-x-twitter, .fa-whatsapp {
     
@@ -335,6 +338,7 @@ display:flex;
     
 }
 .Skills{
+
     color:white;
 
     padding-top:240px;
@@ -370,7 +374,7 @@ display:flex;
     }
 }
 #isiskills{
-    
+    justify-content: center;
     color:white;
     opacity: 0;
     animation: fadeIn 0.5s ease forwards;
@@ -381,8 +385,7 @@ display:flex;
 
 .programming{
     margin-top:100px;
-    margin-left:150px;
-
+   
 }
 .skillborderC{
   width:318px;
@@ -540,6 +543,9 @@ display:flex;
     .fototengah{
         align-items:center;
     }
+    .fototengah{
+        justify-content: center;
+    }
     .foto{
        
         border-style:solid;
@@ -580,16 +586,19 @@ display:flex;
          justify-content: center;
     
         }
+    .tentang{
+        
+        justify-content: center;
+    }
     .Gambar2{
         border-radius:20px;
         height:400px;
-        width:auto;
+        width:100%;
         margin-left:0px;
         
     }
     .sosmed{
         text-align: center;
-        position: relative;
         border-radius: 10px;
         border-color: white;
         background-color: white;
