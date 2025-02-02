@@ -1,5 +1,5 @@
 
-  *{
+*{
     margin:0px;
     padding:0px;
   }
@@ -278,15 +278,18 @@ display:flex;
     border-top:2px solid #a476ff;
 }
 #isiedu{
+    justify-content:center;
+   
     font-family:"rubik";
     font-size:larger;
     margin-top:100px;
-    margin-left:150px;
+    
     color:white;
 
 }
 .Tahun{
     display:flex;
+    justify-content: center;
 }
 
     
@@ -720,6 +723,16 @@ display:flex;
               border-radius:10px;
     
             }
+
+        #bawah{
+            text-align: center;
+            padding-left:0px;
+        }
+
+        .ketcontact{
+            justify-content:center ;
+        }
+
             
         }
     
