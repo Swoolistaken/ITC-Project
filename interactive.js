@@ -10,7 +10,7 @@ async function getweather(city) {
         const weatheroutput=document.getElementById("weatheroutput");
 
         weatheroutput.innerHTML=`
-            <h2>Weather in ${data.name}</h2>
+            <h4>Weather in ${data.name}</h2>
             <p>Temp: ${data.main.temp}°C</p>
             
         
